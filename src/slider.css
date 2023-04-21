@@ -1,0 +1,27 @@
+.testimonial-content {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.testimonial-content.fade-out {
+  opacity: 0;
+}
+
+.testimonial-content.fade-in {
+  opacity: 1;
+}
+.testimonial-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.testimonial-image {
+  max-width: 300px;
+}
+.testimonial-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
