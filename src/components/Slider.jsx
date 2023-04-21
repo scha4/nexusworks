@@ -34,6 +34,7 @@ const TestimonialSlider = () => {
       <div
         className={`testimonial-content ${fadeOut ? "fade-out" : "fade-in"}`}
       >
+        <h2 className="testimonials-heading">CLIENT TESTIMONIALS</h2>
         <img
           className="testimonial-image"
           src={testimonialsData[currentTestimonial].image}
@@ -44,7 +45,7 @@ const TestimonialSlider = () => {
           {testimonialsData[currentTestimonial].author}
         </h2>
         <p className="testimonial-text">
-          {testimonialsData[currentTestimonial].text}
+          "{testimonialsData[currentTestimonial].text}"
         </p>
       </div>
       <div className="testimonial-controls">
@@ -52,7 +53,7 @@ const TestimonialSlider = () => {
           <span className="material-symbols-outlined">arrow_back</span>
         </button>
 
-        <button className="testimonial-control" onClick={handleNextClick}>
+        <button className="testimonial-control-next" onClick={handleNextClick}>
           <span className="material-symbols-outlined">arrow_forward</span>
         </button>
       </div>

@@ -65,6 +65,7 @@
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 30px;
 }
 .free-quote-section1 > h2 {
   color: #2c6990;
@@ -128,6 +129,7 @@
   margin-right: auto;
   max-width: 700px;
   margin-top: 50px;
+  padding-bottom: 30px;
 }
 .about > h1 {
   font-family: "Alkatra", cursive;
