@@ -3,7 +3,7 @@ export const testimonialsData = [
     id: 1,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     author: "John Doe",
-    image: "./photos/haerinhead.jpg",
+    image: "/photos/haerinhead.jpg",
   },
   {
     id: 2,

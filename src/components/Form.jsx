@@ -34,14 +34,13 @@ const ContactForm = () => {
           <h2>GET A FREE QUOTE</h2>
 
           <p>
-            // At Aequus Worldwide Logistics, Inc., we understand the importance
-            of // transparency in pricing. With our no-obligation, free quote,
-            you have // the best chance to make informed decisions about your
-            freight handling // needs. When looking for a trusted NVOCC and
-            import broker to manage // your cargo shipping needs, the dedicated
-            professionals at Aequus // Worldwide Logistics, Inc. are your
-            preferred transportation partners. // Contact us today to learn more
-            and get your free quote. //{" "}
+            "At NexusWorks, we value transparency and believe in providing our
+            clients with accurate pricing information upfront. That's why we
+            offer a no-obligation, free quote that enables you to make informed
+            decisions for your company needs. Whether you're looking for a
+            reliable manufacturer for your products or need assistance with
+            product development, our experienced team is here to help. Contact
+            us today to learn more about our services and get your free quote."
           </p>
         </div>
         <div className="contact-page-container">
