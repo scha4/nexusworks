@@ -2,9 +2,13 @@
   display: none;
 }
 @media screen and (max-width: 769px) {
+  html {
+    width: 100%;
+  }
   .background-container {
     display: none;
   }
+
   .hamburger-container {
     display: flex;
   }
@@ -99,8 +103,11 @@
   }
   .contact-info-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
   }
+
   .testimonial-slider {
     max-width: 90%;
   }

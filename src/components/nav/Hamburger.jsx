@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Menu() {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,13 +19,13 @@ function Menu() {
       <div className={showMenu ? "menu show-menu" : "menu"}>
         <ul className="hamburger-list">
           <li>
-            <a href="#">HOME</a>
+            <Link to="/Home">HOME</Link>
           </li>
           <li>
-            <a href="#">ABOUT US</a>
+            <Link to="/AboutUs">ABOUT US</Link>
           </li>
           <li>
-            <a href="#">GET A FREE QUOTE</a>
+            <Link to="/ContactUs">GET A FREE QUOTE</Link>
           </li>
         </ul>
       </div>

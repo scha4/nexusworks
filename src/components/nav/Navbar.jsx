@@ -1,22 +1,24 @@
-import react from "react";
+import { Link } from "react-router-dom";
 import Menu from "./Hamburger";
 
 export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-logo">
-        <a href="#">
+        <Link to="/Home">
           <img src="./photos/logo2trans.jpg" className="logo" width="290px" />
-        </a>
+        </Link>
       </div>
       <div className="section">
         <h3 className="home">
-          <a href="#">HOME</a>
+          <Link to="/Home">HOME</Link>
         </h3>
         <h3 className="aboutUs">
-          <a href="#">ABOUT US</a>
+          <Link to="/AboutUs">ABOUT US</Link>
         </h3>
-        <button className="button">GET A FREE QUOTE </button>
+        <Link to="/ContactUs">
+          <button className="button">GET A FREE QUOTE </button>
+        </Link>
       </div>
       <Menu />
     </div>

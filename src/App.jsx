@@ -1,25 +1,25 @@
 import Navbar from "./components/nav/Navbar";
-import Body from "./components/Body";
+
 import "./App.css";
 import "./slider.css";
-import ContactForm from "./components/Form";
-import About from "./components/About";
+import "./formpage.css";
+
 import "./components/nav/hamburger.css";
-import TestimonialSlider from "./components/Slider";
-import Contact from "./components/Contact";
+
+import { Route, Routes } from "react-router-dom";
+import AboutUs from "./components/AboutUs";
+import Home from "./components/Home";
+import ContactPage from "./components/ContactPage";
 
 export default function App() {
   return (
-    <div>
+    <>
       <Navbar />
-
-      <Body />
-      <About />
-      <TestimonialSlider />
-
-      <ContactForm />
-
-      <Contact />
-    </div>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/ContactUs" element={<ContactPage />} />
+      </Routes>
+    </>
   );
 }
