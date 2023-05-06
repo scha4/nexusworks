@@ -139,25 +139,7 @@
   font-family: "Roboto", sans-serif;
   border: 3px solid grey;
 }
-@media screen and (max-width: 769px) {
-  .AboutUs-page-container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-    margin-top: 70px;
-    padding-bottom: 30px;
-    font-family: "Alkatra", cursive;
-    font-family: "Inter", sans-serif;
-    font-family: "Nanum Gothic", sans-serif;
-    font-family: "Noto Sans KR", sans-serif;
-    font-family: "Rajdhani", sans-serif;
-    font-family: "Roboto", sans-serif;
-    font-family: "Rubik", sans-serif;
-    margin-top: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
+
 .AboutUs-page-container {
   margin-left: auto;
   margin-right: auto;
@@ -264,4 +246,21 @@
   display: flex;
   gap: 10px;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 769px) {
+  .AboutUs-page-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 700px;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    font-family: "Alkatra", cursive;
+    font-family: "Inter", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
+    font-family: "Rajdhani", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Rubik", sans-serif;
+  }
 }
